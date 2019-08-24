@@ -1,0 +1,203 @@
+html {
+    overflow: hidden;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.res{
+	background-image: url(log.jpg);
+	background-size: cover;
+    height: 100vh;
+	
+}
+.bg {
+    background-image: url("log.jpg");
+    font-size: 18px;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.oben {
+    height: 10%;
+    width: 100%;
+    background-color: rgba(1, 9, 30, 0.8);
+    left: 0%;
+    top: 0%;
+    color: rgb(159, 38, 47);
+    text-align: center;
+    padding-top: 1.5%;
+    font-size: 30px;
+    position: absolute;
+    overflow: hidden;
+    border-bottom: 3px solid;
+    border-color: rgba(254, 139, 48, 0.8);
+  }
+.HDL {
+      float: left;
+      color: rgb(254, 139, 48);
+      text-align: left;
+      font-size: 30px;
+      padding-left: 1.5%;
+      padding-right: 30%;
+}
+.HDL2 {
+    float: left;
+    color: #fe8b30;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 1.5%;
+    padding-right: 27%;
+}
+.HDL3 {
+    float: left;
+    color: rgb(254, 139, 48);
+    text-align: center;
+    font-size: 30px;
+    padding-left: 1.5%;
+}
+.unten {
+    height: 10%;
+    width: 100%;
+    background-color: rgb(42, 42, 52);
+    left: 0%;
+    top: 91%;
+    font: 25px Nexab, sans-serif;
+    color: white;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    border-color: rgb(42, 42, 52);
+  }
+.weiß {
+    background-color: rgba(1, 9, 30, 0.0);
+    font-size: 18px;
+    background-size: cover;
+    position: absolute;
+	width: 100%;
+    height: 90%;
+    top: 0%;
+	overflow: hidden;
+}
+.main-container {
+    display:none;
+    width: 100%;
+    position: relative;
+    top: 0%;
+}
+.character-container {
+    width: 80%;
+    height: 54%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.character-box {
+    background: rgba(255, 255, 255, 1.0);
+    color: #2c3345;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    margin-top: 15%;
+    width: 20%;
+}
+.character-box:hover {
+    background-color: rgb(44, 51, 69); 
+    color: #fff;
+}
+.character-box:active {
+    background-color: rgb(42, 42, 52);  
+    color: #fff;
+}
+.character-fullname {
+    border-bottom: 3px solid;
+    border-color: rgba(254, 139, 48, 0.8);
+    padding-bottom: 5px;
+}
+.h3 .fas fa-plus {
+    color: #fff;
+}
+.character-info {
+    text-align: left!important;
+}
+
+.character-buttons {
+    display:none;
+    width: 100%;
+    position: relative;
+    top: 0%;
+}
+
+.btn-play {
+    background: #43A047;
+    color: #FFFFFF;
+    float:left;
+    margin-right: 10px;
+}
+
+.btn-play:hover {
+    background: #2eb72c;
+}
+
+.btn-delete {
+    background: #930b0b;
+    color: #FFFFFF;
+    float:left;
+	margin-top:40px;
+    width: 80%;
+    padding: 10px
+}
+
+.btn-delete:hover {
+    background: #b50c0c;
+}
+
+
+.active-char {
+    border: 2px solid #fe8b30;
+}
+
+
+.card-text{
+    font-weight: bolder;
+    font-size: 20px;
+    color:#fff;
+
+}
+.fas{
+    font-size: 36px;
+    color:#fff;
+    -webkit-text-stroke: 1px #555;
+}
+.character-title{
+    background-color: #fff;
+    border: 2px solid #222;
+    padding: 10px ;
+    font-size: 24px;
+    opacity: .8
+
+}
+.btn-secondary.dropdown-toggle{
+    width: 80%;
+    margin-top: 40px;
+    background: #fff;
+    color:#222;
+    padding: 10px;
+    opacity: 50%;
+}
+.btn-secondary.dropdown-toggle:focus{
+    background: #999;
+    opacity: .8;
+}
+.dropdown-menu{
+    width: 80%
+}
+.start-game-btn{
+    margin-top:40px;
+    width: 80%;
+    padding: 10px
+}
